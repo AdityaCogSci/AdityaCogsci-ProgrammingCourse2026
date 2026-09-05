@@ -141,7 +141,7 @@ using namespace std;
 int main() {
     int x = 0;
     int y = 10;
-    if (x == 0 && (y / x > 0)) {   // safe! division never happens
+    if (x == 0 && (y / x > 2)) {   // safe! division never happens
     // if (y / x > 2) {   // in some compilers it might run and give y/x=0, some will crash
         cout << "Big ratio" << endl;
     } else {
