@@ -45,17 +45,17 @@ int main() {
 // #include <iostream>
 // using namespace std;
 
-// void doubleIt(double x) {
-//     x = x * 2;   // modifies the COPY only
-//     cout << "Inside function, x = " << x << endl;
-// }
+void doubleIt(double x) {
+    x = x * 2;   // modifies the COPY only
+    cout << "Inside function, x = " << x << endl;
+}
 
-// int main() {
-//     double num = 5.0;
-//     doubleIt(num);
-//     cout << "Back in main, num = " << num << endl;   // still 5.0!
-//     return 0;
-// }
+int main() {
+    double num = 5.0;
+    doubleIt(num);
+    cout << "Back in main, num = " << num << endl;   // still 5.0!
+    return 0;
+}
 
 
 ////////////////// parameters and arguments-pass by value 2 //////////////
