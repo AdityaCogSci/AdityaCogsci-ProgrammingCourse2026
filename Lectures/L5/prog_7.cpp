@@ -1,18 +1,18 @@
 
-//////////////// the if statement ////////
-#include <iostream>
-#include <cmath>
-using namespace std;
+// //////////////// the if statement ////////
+// #include <iostream>
+// #include <cmath>
+// using namespace std;
 
-int main() {
-    double temperature = 42.5;
+// int main() {
+//     double temperature = 42.5;
 
-    if (temperature > 40.0) {
-        cout << "Warning: temperature exceeds safe threshold!" << endl;
-    }
+//     if (temperature > 40.0) {
+//         cout << "Warning: temperature exceeds safe threshold!" << endl;
+//     }
 
-    cout << "Reading logged." << endl;
-    return 0;
+//     cout << "Reading logged." << endl;
+//     return 0;
 }
 
 //////////////// the if else statement ////////
@@ -102,29 +102,29 @@ int main() {
 // }
 
 //////////////////// switch //////////////////////////////
-// #include <iostream>
-// #include <cmath>
-// using namespace std;
+#include <iostream>
+#include <cmath>
+using namespace std;
 
-// int main() {
-//     int month = 3;
+int main() {
+    int month = 3;
 
-//     switch (month) {
-//         case 1:
-//             cout << "January" << endl;
-//             break;
-//         case 2:
-//             cout << "February" << endl;
-//             break;
-//         case 3:
-//             cout << "March" << endl;
-//             break;
-//         default:
-//             cout << "Invalid month" << endl;
-//     }
+    switch (month) {
+        case 1:
+            cout << "January" << endl;
+            break;
+        case 2:
+            cout << "February" << endl;
+            break;
+        case 3:
+            cout << "March" << endl;
+            break;
+        default:
+            cout << "Invalid month" << endl;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 //////////////////////////////////////////////////////

@@ -29,7 +29,7 @@ int main() {
     cout << "Size of double : " << sizeof(double) << " bytes" << endl;
     cout << "Size of char   : " << sizeof(char)   << " bytes" << endl;
     cout << "Size of bool   : " << sizeof(bool)   << " bytes" << endl;
-
+    cout << "Size of mass  :  " << sizeof(mass)   << " bytes" << endl;
     return 0;
 }
 // ============================================================

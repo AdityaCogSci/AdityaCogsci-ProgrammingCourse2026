@@ -19,7 +19,7 @@ int main() {
     // 'cout' prints to the screen
     // '<<' is the output operator
     // 'endl' moves to the next line
-    cout << "Hello, World!" << endl;
+    cout << "Why not just read a new book" << endl;
 
     // 'return 0' tells the OS the program ran successfully
     return 0;

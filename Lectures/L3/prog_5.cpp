@@ -42,7 +42,7 @@
 // using namespace std;
 
 // int main() {
-//     char grade = 'A';        
+//     char grade = 'E';        
 
 //     cout << "As character: " << grade << endl;              
 //     cout << "As number: " << (int)grade << endl;             
@@ -60,7 +60,7 @@
 // int main() {
 //     int grade;      
 //     char marks;
-//     marks=126;  
+//     marks= 33;  
 //     grade = 'A';
 //     cout << grade << endl;  
 //     cout << marks << endl;                          
@@ -119,6 +119,10 @@
 //     cout << right << setfill('0') << setw(4) << roll2 << "  "
 //         << left << setfill(' ') << setw(15) << name2 << setw(6) << cgpa2 << endl;
 
+//     int arr[3] = {1,2,3};
+//     for (int i=0; i < 3; i++) {
+//         cout << (i == 0? "" : ", ") << arr[i]; 
+//     }
 //     return 0;
 // }
 

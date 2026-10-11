@@ -105,21 +105,21 @@
 //     double* ptr = readings;   // no & needed — array name is already an address
 
 //     cout << "First reading via array:   " << readings[0] << endl;
-//     cout << "First reading via pointer: " << *ptr         << endl;
+//     cout << "First reading via pointer: " << *ptr+1         << endl;
 //     return 0;
 // }
 
 /////////////////////pointers arithmatic/////////////////////////////
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main() {
-//     double readings[5] = {12.1, 12.4, 12.0, 11.9, 12.3};
-//     double* ptr = readings;
+int main() {
+    double readings[5] = {12.1, 12.4, 12.0, 11.9, 12.3};
+    double* ptr = readings;
 
-//     for (int i = 0; i < 5; i++) {
-//         cout << "Reading " << i << ": " << *(ptr + i) << endl;
-//     }
-//     return 0;
-// }
+    for (int i = 0; i < 5; i++) {
+        cout << "Reading " << i << ": " << *(ptr + i) << endl;
+    }
+    return 0;
+}

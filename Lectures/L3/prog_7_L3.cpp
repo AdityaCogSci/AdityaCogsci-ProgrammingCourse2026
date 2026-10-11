@@ -62,27 +62,27 @@
 
 //////// manipulators 5 ///////////////
 ///////setw only pads — it never truncates.////////
-// #include <iostream>
-// #include <iomanip>
-// using namespace std;
+#include <iostream>
+#include <iomanip>
+using namespace std;
 
-// int main() {
-//     cout << setw(3) << "Programming Course" << endl;
-//     return 0;
-// }
+int main() {
+    cout << setw(30) << "Programming Course" << endl;
+    return 0;
+}
 
 //////// manipulators 6 //////////////////
 ////////the last one set the mode.///////////
-// #include <iostream>
-// #include <iomanip>
-// using namespace std;
+#include <iostream>
+#include <iomanip>
+using namespace std;
 
-// int main() {
-//     double x = 12345.6789;
-//     cout << fixed << scientific << setprecision(3) << x << endl;   // scientific wins!
-//     cout << scientific << fixed << setprecision(3) << x << endl;   // fixed wins!
-//     return 0;
-// }
+int main() {
+    double x = 12345.6789;
+    cout << fixed << scientific << setprecision(3) << x << endl;   // scientific wins!
+    cout << scientific << fixed << setprecision(3) << x << endl;   // fixed wins!
+    return 0;
+}
 
 
 //////// manipulators 7 //////////////////
